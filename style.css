@@ -1,8 +1,8 @@
 :root{
     --cor-fundo:#aacfee;
-    --cor-fundo-2:#171a1d07;
-    --cor-forms:rgba(20, 18, 20, 0.333);
-    --cor-texto: #ffffff;
+    --cor-fundo-2:#00000000;
+    --cor-forms:rgba(0, 0, 0, 0);
+    --cor-texto: #fff8f8;
     --cor-erro: #ff4747;
     --cor-sucesso: #94ff86;
 
@@ -32,7 +32,7 @@ main{
     gap: 1%;
 
     border-radius: 10%;
-    box-shadow: 15px 15px 15px rgba(127, 80, 236, 0.333);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.333);
     background-color: var(--cor-fundo-2);
 }
 
@@ -57,13 +57,6 @@ main{
 
 }
 
-.toggle{
-    text-align: center;
-    margin-top: 10px;
-    cursor: pointer;
-    color: var(--cor-texto);
-
-}
 
 .erro{
     color: var(--cor-erro);
@@ -77,9 +70,3 @@ main{
     text-align: center;
 }  
 
-h2{
-
-
-
-
-}
