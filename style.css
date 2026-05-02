@@ -1,6 +1,5 @@
 :root{
-    --cor-fundo:#aacfee;
-    --cor-fundo-2:#00000000;
+    
     --cor-forms:rgba(0, 0, 0, 0);
     --cor-texto: #fff8f8;
     --cor-erro: #ff4747;
@@ -27,14 +26,6 @@ body{
     background-repeat: no-repeat;
 }
 
-main{
-    padding: 3%;
-    gap: 1%;
-
-    border-radius: 10%;
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.333);
-    background-color: var(--cor-fundo-2);
-}
 
 #form-login{
     display: flex;
