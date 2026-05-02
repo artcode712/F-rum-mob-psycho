@@ -13,7 +13,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-body{
+#body1{
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -34,6 +34,10 @@ main{
     border-radius: 10%;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.333);
     background-color: var(--cor-fundo-2);
+}
+
+#titulo{
+    text-align: center;
 }
 
 #form-login{
@@ -69,4 +73,3 @@ main{
     font-size: 12px;
     text-align: center;
 }  
-
