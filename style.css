@@ -8,6 +8,14 @@
     
 }
 
+#titulo {
+    color: white;
+}
+
+label, h2 {
+    color: white;
+}
+
 *{
     font-family: Georgia, 'Times New Roman', Times, serif
 }
@@ -17,6 +25,7 @@ body{
     justify-content: center;
     gap: 5px;
     align-items: flex-start;
+   color: var(--cor-texto);
 
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
