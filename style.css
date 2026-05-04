@@ -21,7 +21,7 @@ label, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-body{
+.body1{
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -34,6 +34,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 
 #titulo{
@@ -74,3 +75,70 @@ body{
     text-align: center;
 }  
 
+.logo {
+    width: 56px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#logout_button {
+    margin-left: 10px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 400px;
+}
+
+.searchbar {
+    display: inline-flex;
+    gap: 30px;
+    align-items: center;
+    margin: 0;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.892);
+    border-radius: 10px;
+    color: white;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+#main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.news {
+    margin-left: 20px;
+        justify-content: flex-start;
+        width: 400px;
+
+}
+
+.news2 {
+    margin-right: 20px;
+    justify-content: flex-end;
+    width: 400px;
+}
+
+.organizanews {
+    margin-left: 350px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
