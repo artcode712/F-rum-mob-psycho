@@ -1,9 +1,11 @@
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fórum Mob Psycho</title>
 
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
@@ -17,40 +19,46 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex;">
 
             <div class="container-fluid">
-                <img src=>
-                <a class="navbar-brand" href="#">Navbar</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/9HfWTVf.png" alt="Logo" class="logo">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap: 30px;">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+                            <a class="nav-link active" href="home.html">Início</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="conversas.html">Bate-Papo</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="noticias.html">Notícias</a>
                         </li>
+
                     </ul>
+                </div>
+
+                <div class="searchbar">
 
                     <form class="d-flex" role="search">
-                        <input id="searchInput" class="form-control me-2" type="search" placeholder="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input id="searchInput" class="form-control me-2" type="search" placeholder="">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
 
                     <div id="logout_button_div">
-                        <div id="logout_button">
-                            <a id="logout" href="index.html" class="nav-link">Sair</a>
+                        <div id="logout_button" style="color: black;">
+                            <a class="nav-link" href="index.html">Sair</a>
                         </div>
                     </div>
 
@@ -61,7 +69,40 @@
 
     <main class="main2">
 
+        <div class="container mt-5">
+
+            <h2 class="text-black mb-4">💬 Bate-papo</h2>
+
+            <div id="chatBox" class="chat-box mb-3">
+
+                <p><strong>@NEgodoBorel</strong> - Olá, tudo bem?</p>
+
+                <p><strong>@Mob</strong> - Oi, tudo ótimo! E você?</p>
+
+                <p><strong>@NEgodoBorel</strong> - Estou bem também, obrigado por perguntar!</p>
+
+                <p><strong>@Mob</strong> - Que anime bom! Prometeu nada e entregou tudo!</p>
+
+                <p><strong>@MOBPsicopata</strong> - PUTS! Papo reto, bom pra caramba!</p>
+
+                <p><strong>@ButtikoMolhado</strong> - @Mob Acabei de terminar o anime e concordo totalmente!! Até me
+                    emocionei...</p>
+
+            </div>
+
+            <div class="input-group">
+
+                <input id="messageInput" type="text" class="form-control" placeholder="Digite sua mensagem...">
+
+                <button type="button" class="btn btn-warning" onclick="sendMessage()">Enviar</button>
+
+            </div>
+
+        </div>
+
     </main>
+
+    <script src="script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
