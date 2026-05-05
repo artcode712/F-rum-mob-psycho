@@ -141,4 +141,5 @@ label, h2 {
     display: flex;
     gap: 80px;
     justify-content: center;
+    margin-top: 50px;
 }
